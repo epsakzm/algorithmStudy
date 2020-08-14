@@ -1,0 +1,40 @@
+
+# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,executable,text
+# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,executable,text
+
+### Executable ###
+*.app
+*.bat
+*.cgi
+*.com
+*.exe
+*.gadget
+*.jar
+*.pif
+*.vb
+*.wsf
+
+### Text ###
+*.doc
+*.docx
+*.log
+*.msg
+*.pages
+*.rtf
+*.txt
+*.wpd
+*.wps
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+
+# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,executable,text
