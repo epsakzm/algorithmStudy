@@ -1,4 +1,3 @@
-//반은 안됨..
 // https://programmers.co.kr/learn/courses/30/lessons/67259]
 #include <bits/stdc++.h>
 

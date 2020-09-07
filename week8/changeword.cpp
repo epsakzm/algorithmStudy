@@ -5,8 +5,10 @@ using namespace std;
 bool one(string str1, string str2){
     int cnt = 0;
     for(int i = 0; i < str1.length(); i++){
-        if(str1[i] != str2[i])
+        if(str1[i] != str2[i]){
             cnt++;
+            if(cnt>2)return false;
+        }
     }
     return cnt == 1;
 }

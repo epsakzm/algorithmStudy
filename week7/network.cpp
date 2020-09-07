@@ -12,7 +12,7 @@ void dfs(int x, int n, vector<vector<int>> computers)
     visited[x] = true;
     for (int i = 0; i < n; i++)
     {
-        if (computers[x][i] && !visited[i])
+        if (computers[x][i] && !visited[i]) // computer[1][2] -> 1
         {
             dfs(i, n, computers);
         }
