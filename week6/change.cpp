@@ -1,3 +1,4 @@
+//https://programmers.co.kr/learn/courses/30/lessons/12907
 #include <bits/stdc++.h>
 #define endl '\n'
 #define MOD 1000000007
@@ -23,7 +24,6 @@ int solution(int n, vector<int> money)
 
 int main(void)
 {
-    // cout << solution(5, {1, 2, 5}) << endl;
-    // https://programmers.co.kr/learn/courses/30/lessons/12907
+    cout << solution(5, {1, 2, 5}) << endl;
     return 0;
 }

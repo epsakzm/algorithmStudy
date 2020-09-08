@@ -36,5 +36,6 @@ int main(void)
 {
     vector<vector<int>> v = {{1, 1, 0}, {1, 1, 1}, {0, 1, 1}};
     cout << solution(1, v) << endl;
+    
     return 0;
 }
