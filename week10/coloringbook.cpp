@@ -42,7 +42,7 @@ vector<int> solution(int m, int n, vector<vector<int>> picture)
     {
         for (int j = 0; j < n; j++)
         {
-                cnt = 1;
+            cnt = 1;
             if (!visited[i][j] && picture[i][j] != 0)
             {
                 target = picture[i][j];
